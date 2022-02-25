@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from creds import name
 from creds import passwd, link1
 import time
-
+#name, password, and link1(meeting id) have been put in 'creds' for confidentiality
 signin = (By.XPATH, '//*[@id="office-HeroPhotographic-6j70rzy"]/div/div[3]/section/div/div[2]/div[1]/a')
 email = (By.ID, "i0116")
 password = (By.ID, "i0118")
